@@ -21,10 +21,20 @@ def get_requirements(file_path: str) -> List[str]:
     return requirements
 
 
+# setup(
+#     name='mlProject',
+#     version='0.0.1',
+#     author='Deepak',
+#     packages=find_packages(),
+#     install_requires=get_requirements('requirements.txt'),
+#     packages=find_packages(where="src"),
+#     package_dir={"": "src"},
+# )
+
 setup(
-    name='mlProject',
-    version='0.0.1',
-    author='Deepak',
-    packages=find_packages(),
-    install_requires=get_requirements('requirements.txt')
+    name="mlProject",
+    version="0.0.1",
+    author="Deepak",
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
 )
