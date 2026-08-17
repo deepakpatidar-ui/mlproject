@@ -1,0 +1,23 @@
+artifact_path: file:D:/My Data/Pradeep/Pracs/mldeep/mlruns/0/models/m-d29e72175b81469988bf2f51e11160cf/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.15.1
+model_id: m-d29e72175b81469988bf2f51e11160cf
+model_size_bytes: 6033
+model_uuid: m-d29e72175b81469988bf2f51e11160cf
+prompts: null
+run_id: f03fb4315c8840cebf060e778a82062d
+utc_time_created: '2026-08-17 12:17:34.134971'
